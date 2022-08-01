@@ -96,34 +96,16 @@
 }
 
 
-/*botón de contacto*/
-.contact-style {
-    height:60px;
-    width:150px;
-    padding: 20px;
-    text-align: center;
-    color: $very-dark-desatured-blue;
-    background-color:$yellow;
-    font-family: $font-fraunces;
-    text-transform: uppercase;
-    border-radius: 30px 30px 30px 30px;
-    font-size:1rem;
-    transition: 200ms ease-out;
-
-    &:hover {
-        background-color: hsla(168, 73%, 38%, 0.555); 
-    }
-}
-
 
 .hero-container {
+    text-align: center;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;    
 
     & h1 {
-        padding:40px 20px;
+        padding:20px 20px;
         font-family: $font-fraunces;
         font-size:2.4rem;
         margin:30px 0 10px 0;
